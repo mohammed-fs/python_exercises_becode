@@ -50,3 +50,9 @@ print(list_of_num)
 
 * display the index of element 35</br>
 `print(list_of_num.index(35))`</br>
+
+* remove item 35 and display the list</br>
+```
+list_of_num.remove(35)
+print(list_of_num)
+```
