@@ -71,4 +71,4 @@ print(movies_hours)
 </br>
 
 **10. Remove one of the movies from the dictionary**</br>
-`del movies_time['The Usual Suspects']`
+`del movies['The Usual Suspects']`
