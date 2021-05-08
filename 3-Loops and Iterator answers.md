@@ -4,6 +4,9 @@
 employees = ["Merouane", "Koen", "Jonas", "Hendrik", "Sophie", "Ferdi", "Ignace", "Axel", "Jeroen", "Adrien"]
 for employee in employees:
     print(employee)
+```
+**2. Display only those whose first name begins with the letter J**
+```
 letter = 'J'
 for x in employees:
     if x[0] == letter:
