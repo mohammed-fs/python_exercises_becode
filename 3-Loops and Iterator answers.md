@@ -75,3 +75,10 @@ num = int(input("Enter a number: "))
 for x in range(num):
     print(x)
 ```
+**7.b Now make sure that your program displays all the numbers down to 0**</br>
+for the same example, your program will display something like this: 3,2,1,0</br>
+```
+num = int(input("Enter a number: "))
+for x in reversed(range(10)):
+    print(x)
+```
