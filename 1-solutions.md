@@ -14,7 +14,7 @@ Note: Be careful, it must be an integer.</br>
 note:- You must use the age and div_age variables</br>
 ```test_div = str(age) + " divided by 5 is equal " + str(div_age)```</br>
 
-**5. Create a variable `rest_div` that contains the rest of the variable `age` divided by 7**
+**5. Create a variable `rest_div` that contains the rest of the variable `age` divided by 7**</br>
 ```rest_div = div_age / 7```</br>
 
 **6. Create a variable `exp_div` that contains the value of `rest_div` exponent 3**</br>
