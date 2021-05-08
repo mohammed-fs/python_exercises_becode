@@ -62,3 +62,9 @@ movies_time = {'Memories Of Murder': 132,
                'Interstellar': 169,
                'Take Shelter': 120}
 ```
+
+**9. Calculate the number of hours it takes to watch all the movies**</br>
+```
+movies_hours = (sum(movies_time.values())) / 60
+print(movies_hours)
+```
