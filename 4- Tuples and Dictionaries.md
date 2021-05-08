@@ -20,3 +20,12 @@ sentence = "I am the best coder in Telenet !"
 str_to_list = sentence.split()
 print(str_to_list)
 ```
+</br>
+
+**4. Transform this string Why_am_I_Mister_pink_? by removing the underscores: Why am I Mister pink ?**</br>
+```
+str1 = "Why_am_I_Mister_pink_"
+print(str1.replace('_', ' '))
+```
+
+</br>
