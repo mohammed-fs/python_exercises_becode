@@ -29,3 +29,10 @@ print(str1.replace('_', ' '))
 ```
 
 </br>
+
+**6. Display only keys of this dictionary.**</br>
+```
+movies = {"Memories of Murder" : "Bong Joon Ho", "Pulp Fiction" : "Quentin Tarantino", "The Usual Suspects" :"Bryan Singer"}
+print(movies.values())
+```
+</br>
