@@ -41,3 +41,9 @@ for a in range(1,11):
 list_of_num.append(43)
 print(list_of_num)
 ```
+
+* reverse and display the list</br>
+```
+list_of_num.reverse()
+print(list_of_num)
+```
