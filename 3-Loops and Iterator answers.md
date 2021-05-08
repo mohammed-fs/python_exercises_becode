@@ -4,4 +4,13 @@
 employees = ["Merouane", "Koen", "Jonas", "Hendrik", "Sophie", "Ferdi", "Ignace", "Axel", "Jeroen", "Adrien"]
 for employee in employees:
     print(employee)
+letter = 'J'
+for x in employees:
+    if x[0] == letter:
+        print(x)
+# for multiple letter using list
+letter2 = ['M', 'S', 'A']
+for x in employees:
+    if x[0] in letter2:
+        print(x)
 ```
