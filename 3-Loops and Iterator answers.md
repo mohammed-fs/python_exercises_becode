@@ -17,3 +17,17 @@ for x in employees:
     if x[0] in letter2:
         print(x)
 ```
+**3. Display integers from 0 to 23 not included, using a for loop and the range() instruction.**
+```
+for a in range(23):
+    print(a)
+```
+**4. Use the break instruction to interrupt a for loop to display integers from 1 to 10 included, when the loop variable is 7**
+```
+a = 1
+for a in range(1,11):
+    print(a)
+    a += 1
+    if a == 7:
+        break
+```
