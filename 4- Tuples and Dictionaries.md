@@ -46,3 +46,19 @@ movies["Pulp Fiction"] = 'Quentin Tarantino'
 ```
 
 </br>
+
+**8. Create a dictionary to build the total time with the length of each movie corresponding to the following table:**</br>
+```
+Memories Of Murder // 132 minutes
+Pulp Fiction // 154 minutes
+The Usual Suspects // 106 minutes
+Interstellar // 169 minutes
+Take Shelter // 120 minutes
+```
+```
+movies_time = {'Memories Of Murder': 132,
+               'Pulp Fiction': 154,
+               'The Usual Suspects': 106,
+               'Interstellar': 169,
+               'Take Shelter': 120}
+```
