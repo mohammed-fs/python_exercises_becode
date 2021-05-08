@@ -21,5 +21,5 @@ note:- You must use the age and div_age variables</br>
 ```exp_div = rest_div ** 3```</br>
 
 **7. Write a program that enters an integer and then displays the value entered and its type.**</br>
-```num = input("Enter a number: ")
-print(f'The number is {num}, and the type is {type(num)} data type.')```</br>
+```num = input("Enter a number: ")```</br>
+```print(f'The number is {num}, and the type is {type(num)} data type.')```</br>
