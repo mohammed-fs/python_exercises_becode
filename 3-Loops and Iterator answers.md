@@ -100,5 +100,5 @@ elif user_num == num:
 all_employees = [["David", "John", "Gabe", "Alix", "Anthony"], ["Julie", "Jess", "Mustafa", "Claudius", "Sonja"]]
 for x in all_employees:
     for y in x:
-        print(y)
+        print(y + " is an employee.")
 ```
