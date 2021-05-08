@@ -35,6 +35,7 @@ for a in range(1,11):
 `list_of_num = [23, 18, 64, 35, 92]`
   * sort and display the list</br>
 `print(sorted(list_of_num))`
+
   * add item 43 to the list and display the list</br>
 ```
 list_of_num.append(43)
