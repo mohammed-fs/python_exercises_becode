@@ -8,5 +8,6 @@ movies = {'Inception':'Christopher Nolan',
           'Interstellar':'Christopher Nolan'}
 ```
 </br>
+
 **2. Add an entry to the dictionary of the previous question (a new movie and its director)**</br>
 `movies['Parasite'] = 'Bong Joon Ho'`
