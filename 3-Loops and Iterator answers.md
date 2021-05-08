@@ -82,3 +82,16 @@ num = int(input("Enter a number: "))
 for x in reversed(range(10)):
     print(x)
 ```
+**8.The price is right ! Create a variable that will contain the number to be found.**
+Then create an algorithm that will ask the user to find this price. If the user enters a number that is too high, he will have the sentence: It’s less. If he enters a number that is too low, he will have the sentence: It’s more. If the user finds the right price he will have the sentence: Well done, you won.
+
+```
+num = 13
+user_num = int(input('Enter a number: '))
+if user_num < num:
+    print("It's more")
+elif user_num > num:
+    print("It's less")
+elif user_num == num:
+    print("Well done, you won")
+```
