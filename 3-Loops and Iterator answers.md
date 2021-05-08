@@ -48,5 +48,5 @@ list_of_num.reverse()
 print(list_of_num)
 ```
 
-*display the index of element 35</br>
+* display the index of element 35</br>
 `print(list_of_num.index(35))`</br>
