@@ -37,3 +37,9 @@ note:- You must use the age and div_age variables</br>
   * 2 spaghetti bolognese at 14.80€ each
 
 **Calculate the sum of all items and store it in a restaurant_bill variable**
+```coke = 2.20 * 2```
+```gin_and_tonic = 8.60 * 3```
+```goat_cheese_salad = 11.70 * 1```
+```steak_with_fries = 18 * 2```
+```spaghetti_bolognese = 14.80 * 2```
+```restaurant_bill = coke + gin_and_tonic + goat_cheese_salad + steak_with_fries + spaghetti_bolognese```
