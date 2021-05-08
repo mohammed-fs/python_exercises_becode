@@ -58,3 +58,20 @@ print(list_of_num)
 ```
 * display the sub-list of the 2nd to 3rd element</br>
 `print(list_of_num[1:3])`</br>
+
+* display the sub-list from the beginning to the 2nd element</br>
+`print(list_of_num[:2])`</br>
+
+* display the sub-list of the 3rd element at the end of the list</br>
+`print(list_of_num[-3])`</br>
+
+* display the last element using a negative indication.</br>
+`print(list_of_num[-1])`</br>
+
+**7.a Write an algorithm that asks the user to enter a number.**</br>
+Then make sure that your program displays all the numbers up to the number, for example, if the user enters the number 3, then your program will display something like this: 0,1,2,3</br>
+```
+num = int(input("Enter a number: "))
+for x in range(num):
+    print(x)
+```
