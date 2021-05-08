@@ -102,3 +102,9 @@ for x in all_employees:
     for y in x:
         print(y + " is an employee.")
 ```
+
+**10. Display all elements. If the element is part of the first table**</br>
+display - `Java is a compiled language` - and if the element is part of the second language,</br>
+display - `PHP is an interpreted language …`</br>
+
+`languages = [["C", "Java", "COBOL" ], ["PHP", "Python", "Javascript"]]`</br>
