@@ -68,3 +68,7 @@ movies_time = {'Memories Of Murder': 132,
 movies_hours = (sum(movies_time.values())) / 60
 print(movies_hours)
 ```
+</br>
+
+**10. Remove one of the movies from the dictionary**</br>
+`del movies_time['The Usual Suspects']`
