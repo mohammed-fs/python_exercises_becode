@@ -56,3 +56,5 @@ print(list_of_num)
 list_of_num.remove(35)
 print(list_of_num)
 ```
+* display the sub-list of the 2nd to 3rd element</br>
+`print(list_of_num[1:3])`</br>
