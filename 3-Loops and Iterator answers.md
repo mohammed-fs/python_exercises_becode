@@ -95,3 +95,10 @@ elif user_num > num:
 elif user_num == num:
     print("Well done, you won")
 ```
+**9. Display all employees with the sentence NAME is an employee.**</br>
+```
+all_employees = [["David", "John", "Gabe", "Alix", "Anthony"], ["Julie", "Jess", "Mustafa", "Claudius", "Sonja"]]
+for x in all_employees:
+    for y in x:
+        print(y)
+```
