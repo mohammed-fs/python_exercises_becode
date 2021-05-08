@@ -30,3 +30,8 @@ for a in range(1,11):
     if a == 7:
         break
 ```
+
+**6. Follow the instructions :**
+`list_of_num = [23, 18, 64, 35, 92]``
+  * sort and display the list;
+`print(sorted(list_of_num))`
