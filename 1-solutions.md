@@ -7,3 +7,5 @@ In some of these exercises, you will have to use methods that you have not seen 
 **3. Create a variable `div_age` and assign it the value of the age divided by 5.**</br>
 Note: Be careful, it must be an integer.</br>
 ```div_age = int(age / 5)```
+**4. Create a variable `text_div` that contains the character string `65 divided by 5 is equal 11`.**</br>
+```test_div = str(age) + " divided by 5 is equal " + str(div_age)```</br>
