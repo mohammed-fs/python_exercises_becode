@@ -5,5 +5,5 @@ In some of these exercises, you will have to use methods that you have not seen 
 **2. Adds 10 to variable `age`**</br>
 ```age += 10```</br>
 **3. Create a variable `div_age` and assign it the value of the age divided by 5.**</br>
-**Note: Be careful, it must be an integer.**</br>
+Note: Be careful, it must be an integer.</br>
 ```div_age = int(age / 5)```
