@@ -11,4 +11,15 @@ Note: Be careful, it must be an integer.</br>
 ```div_age = int(age / 5)```</br>
 
 **4. Create a variable `text_div` that contains the character string `65 divided by 5 is equal 11`.**</br>
+note:- You must use the age and div_age variables</br>
 ```test_div = str(age) + " divided by 5 is equal " + str(div_age)```</br>
+
+**5. Create a variable `rest_div` that contains the rest of the variable `age` divided by 7**
+```rest_div = div_age / 7```</br>
+
+**6. Create a variable `exp_div` that contains the value of `rest_div` exponent 3**</br>
+```exp_div = rest_div ** 3```</br>
+
+**7. Write a program that enters an integer and then displays the value entered and its type.**</br>
+```num = input("Enter a number: ")
+print(f'The number is {num}, and the type is {type(num)} data type.')```</br>
