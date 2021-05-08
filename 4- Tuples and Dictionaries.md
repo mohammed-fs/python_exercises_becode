@@ -38,3 +38,11 @@ movies = {"Memories of Murder" : "Bong Joon Ho",
 print(movies.values())
 ```
 </br>
+
+**7. Replace the value of Pulp Fiction by Quentin Tarantino.**
+```
+movies = {"Memories of Murder" : "Bong Joon Ho", "Pulp Fiction" : "That guy!", "The Usual Suspects" :"Bryan Singer"}
+movies["Pulp Fiction"] = 'Quentin Tarantino'
+```
+
+</br>
