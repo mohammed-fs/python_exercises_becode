@@ -27,7 +27,6 @@ for a in range(23):
 a = 1
 for a in range(1,11):
     print(a)
-    a += 1
     if a == 7:
         break
 ```
