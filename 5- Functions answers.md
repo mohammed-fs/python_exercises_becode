@@ -87,9 +87,8 @@ for num in list1:
         total = total + num
 print(total)
 ```
-
-### get even numbers from inputs
 ```
+# get even numbers from inputs
 def get_even(numbers):
     even_nums = [num for num in numbers if not num % 2]
     return even_nums
