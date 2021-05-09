@@ -80,6 +80,7 @@ You get an array of numbers, return the sum of all of the even ones.</br>
 Example :<br>
 `[4, 8, 15, 16, 23, 42] ⇒ 4 + 8 + 16 + 42 = 70`</br>
 ```
+# solution using for loop only
 list1 = [4, 8, 15, 16, 23, 42]
 total = 0
 for num in list1:
@@ -88,12 +89,22 @@ for num in list1:
 print(total)
 ```
 ```
-# get even numbers from inputs
+# get even numbers from inputs, not completed
 def get_even(numbers):
     even_nums = [num for num in numbers if not num % 2]
     return even_nums
 
 print(get_even([1, 2, 3, 4, 5, 6]))
+```
+```
+#This solution is working
+def get_even(num):
+    total = 0
+    for x in num:
+        if x % 2 == 0:
+            total += x
+    return total
+print(get_even((4, 8, 15, 16, 23, 42)))
 ```
 </br>
 
@@ -132,4 +143,16 @@ if month_integer <= 0 or month_integer > 12:
 elif month_integer >= 1 and month_integer <= 12:
     month = datetime.date(1900, month_integer, 1).strftime('%B')
     print(month)
+```
+
+**8. Product**</br>
+Write a program that finds the product of every number from 1 to num. The number will always be a positive integer greater than 0.</br>
+
+Example :</br>
+```
+    product(2) -> 2
+    1 x 2
+
+    product(4) -> 24
+    1 x 2 x 3 x 4
 ```
