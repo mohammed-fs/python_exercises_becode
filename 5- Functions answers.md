@@ -72,3 +72,18 @@ def abbrevName(name):
 
 print(abbrevName('ingvar kamprad elmtaryd agunnaryd')) # I.K.E.A
 ```
+</br>
+
+**5. Sum of positive**</br>
+You get an array of numbers, return the sum of all of the even ones.</br>
+
+Example :<br>
+`[4, 8, 15, 16, 23, 42] ⇒ 4 + 8 + 16 + 42 = 70`</br>
+```
+list1 = [4, 8, 15, 16, 23, 42]
+total = 0
+for num in list1:
+    if num % 2 == 0:
+        total = total + num
+print(total)
+```
