@@ -87,3 +87,4 @@ for num in list1:
         total = total + num
 print(total)
 ```
+.
