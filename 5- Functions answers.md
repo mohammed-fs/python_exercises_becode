@@ -106,3 +106,30 @@ Example :</br>
 
 `sum_mix(['5', '0', 9, 3, 2, 1, '9', 6, 7]) => 42`
 </br>
+
+**7. Return the month Complete the function which returns the month according to the input number:**</br>
+```
+1 returns "January"
+2 returns "February"
+3 returns "March"
+4 returns "April"
+5 returns "May"
+6 returns "June"
+7 returns "July"
+8 returns "August"
+9 returns "September"
+10 returns "October"
+11 returns "November"
+12 returns "December"
+Otherwise returns "Wrong, please enter a number between 1 and 12"
+```
+```
+import datetime
+
+month_integer = int(input('Enter month number: '))
+if month_integer <= 0 or month_integer > 12:
+    print("Wrong, please enter a number between 1 and 12")
+elif month_integer >= 1 and month_integer <= 12:
+    month = datetime.date(1900, month_integer, 1).strftime('%B')
+    print(month)
+```
