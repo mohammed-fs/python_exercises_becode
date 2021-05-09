@@ -55,3 +55,20 @@ is_divisible(100,5,3) # False
 is_divisible(12,7,5) # False
 ```
 </br>
+
+**4. Abbreviate a multiple words Company Name**</br>
+Write a function to convert a company name into an acronym. This function strictly takes multiple words with one space in between them.</br>
+
+Example :</br>
+```
+Bayerische Motoren Werk => B.M.W.
+Ingvar Kamprad Elmtaryd Agunnaryd => I.K.E.A.
+American Standard Code Information Interchange => A.S.C.I.I.
+```
+
+```
+def abbrevName(name):
+    return ".".join([w[0].upper() for w in name.split()])
+
+print(abbrevName('ingvar kamprad elmtaryd agunnaryd')) # I.K.E.A
+```
