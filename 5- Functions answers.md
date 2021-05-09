@@ -43,3 +43,15 @@ is_divisible(12,2,6)--> True because 12 is divisible by 2 and 6
 is_divisible(100,5,3)--> False because 100 is not divisible by 3
 is_divisible(12,7,5)--> False because 12 is neither divisible by 7 nor 5
 ```
+```
+def is_divisible(n,x,y):
+    if n % x == 0 and n % y == 0:
+        print('True')
+    elif n % x != 0 or n % y != 0:
+        print('False')
+is_divisible(3,1,3) # True
+is_divisible(12,2,6) # True
+is_divisible(100,5,3) # False
+is_divisible(12,7,5) # False
+```
+</br>
