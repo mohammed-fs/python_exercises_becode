@@ -156,3 +156,20 @@ Example :</br>
     product(4) -> 24
     1 x 2 x 3 x 4
 ```
+
+**9. If you can’t sleep, just count sheep!!**</br>
+Given a non-negative integer, 3 for example, return a string with a murmur: `1 sheep…2 sheep…3 sheep….` Input will always be valid, i.e. no negative integers.</br>
+
+**10. Employee’s salary**</br>
+Create a function salary_calculator, which calculates the monthly salary of an employee depending on two parameters: the education and the seniority.</br>
+
+This function should take two arguments: education (`Highschool` - `University` - `BeCode`); seniority - years inside the company (from 0 and above);</br>
+
+This function should return a number (salary). There are four types of salaries:</br>
+```
+1 000 000 euros , if the education is BeCode or if the seniority is more than 100.
+90 000 euros, if the education is University and if the seniority is at least 25.
+50 000 euros, if the degree is Highschool and if the seniority is at least 5.
+2 euros in other cases
+```
+</br>
