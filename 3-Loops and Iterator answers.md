@@ -79,7 +79,7 @@ for x in range(num):
 for the same example, your program will display something like this: 3,2,1,0</br>
 ```
 num = int(input("Enter a number: "))
-for x in reversed(range(10)):
+for x in reversed(range(num)):
     print(x)
 ```
 **8.The price is right ! Create a variable that will contain the number to be found.**
